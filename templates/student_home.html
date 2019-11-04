@@ -1,0 +1,22 @@
+{% extends 'student_base.html' %}
+
+{% block body %}
+
+    <ul>
+
+        <li>
+            <a class="link-target" href="{% url 'profile_form' %}">Apply/Update application for postgraduate studies</a>
+        </li>
+        <li>
+            <a class="link-target" href="{% url 'status_form' %}">Application status</a>
+        </li>
+        <li>
+            <a class="link-target" href="{% url 'delete_form' %}">Withdraw application</a>
+        </li>
+
+
+
+
+    </ul>
+
+{% endblock body %}

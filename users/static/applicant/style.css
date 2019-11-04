@@ -1,0 +1,8 @@
+body{
+    background: white url("images/clean.png")
+}
+
+.topnav{
+    background-color: #333;
+    overflow: hidden;
+}

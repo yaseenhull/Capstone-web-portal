@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="wrap">
+    <li>
+         <a class="button-custom" href="{% url 'register' %}">Register</a>
+    </li>
+
+    <li>
+        <a class="button-custom" href="{% url 'login' %}">Login (Students)</a>
+    </li>
+
+
+  </div>
+{% endblock body %}
